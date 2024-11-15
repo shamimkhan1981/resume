@@ -11,7 +11,7 @@
 <body>
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 
-    <div class="resume">
+    <div id="content" class="resume">
         <div class="resume_left">
             <div class="resume_profile">
                 <img src="profile_pic.png" alt="profile_pic">
@@ -422,6 +422,22 @@
             </div> -->
         </div>
     </div>
+    <!-- <button onclick="generatePDF()">Download PDF</button>
+    <script src="html2pdf.bundle.min.js"></script>
+    <script>
+        function generatePDF() {
+            const element = document.getElementById('content'); // Select the HTML content
+            const options = {
+                margin: [0, 0, 0, 0], //[top, left, bottom, right]
+                filename: 'shamim_khan_geospatial_data_engineer_2024.pdf',
+                image: { type: 'jpeg', quality: 0.98 },
+                html2canvas: { scale: 2 },
+                jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
+            };
+
+            html2pdf().set(options).from(element).save(); // Generate and save PDF
+        }
+    </script> -->
 </body>
 
 </html>

@@ -242,3 +242,9 @@ body {
 .resume .resume_right .resume_hobby ul li:last-child:before {
     display: none;
 }
+
+button {
+    float: right;
+    margin-top: -20px;
+    cursor: pointer;
+}
